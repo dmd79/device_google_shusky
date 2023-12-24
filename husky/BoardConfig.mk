@@ -59,6 +59,7 @@ include device/google/zuma/BoardConfig-common.mk
 include device/google/shusky/sepolicy/husky-sepolicy.mk
 include device/google/shusky/wifi/BoardConfig-wifi.mk
 
+<<<<<<< HEAD
 # Android Virtualization Framework (AVF) team is using husky with hypervisor in
 # nvhe mode as a development platform to build infrastructure that supports
 # assigning devices to guest VMs.
@@ -69,3 +70,6 @@ BOARD_KERNEL_CMDLINE += kvm-arm.mode=nvhe
 endif
 
 include device/google/shusky/husky/BoardConfigLineage.mk
+=======
+include device/google/shusky/husky/BoardConfigEvolution.mk
+>>>>>>> a0f2952 (shusky: Initialize Evolution X 8.x)
